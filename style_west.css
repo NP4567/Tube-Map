@@ -1,7 +1,4 @@
-h1. {
-	text-align: center;
-}
-img.{
+img {
 	align-self: center;
 }
 
@@ -13,12 +10,12 @@ p {
 	color: cornflowerblue;
 }
 
-h1. {
+h1 {
 	text-align: center;
 	color: cadetblue;
 }
 
-title. {
+title {
 	text-align: center;
 	color: cadetblue;
 }
