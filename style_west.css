@@ -4,3 +4,21 @@ h1. {
 img.{
 	align-self: center;
 }
+
+*{font-family: helvetica;
+background-color: linen
+}
+
+body {
+	color: cornflowerblue;
+}
+
+h1. {
+	text-align: center;
+	color: cadetblue;
+}
+
+title. {
+	text-align: center;
+	color: cadetblue;
+}
