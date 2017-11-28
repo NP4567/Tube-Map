@@ -10,40 +10,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
-    <h1>London sightseeing home page</h1>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Homepage <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">North</a>
-      <a class="nav-item nav-link" href="#">East</a>
-      <a class="nav-item nav-link" href="#">South</a>
-      <a class="nav-item nav-link" href="#">West</a>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Homepage <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">North</a>
+          <a class="nav-item nav-link" href="#">East</a>
+          <a class="nav-item nav-link" href="#">South</a>
+          <a class="nav-item nav-link" href="#">West</a>
+        </div>
+      </div>
+    </nav>
 
 <!--map section-->
 <div class="container-fluid">
-  <html>
+  <h1>London sightseeing home page</h1>
 
-<img src="tubemapcrop.jpg" width=100% usemap=#tubemap/>
-<map name="tubemap"> </map>
+  <img src="tubemapcrop.jpg" width="100%" usemap="#tubemap" />
+  <map name="tubemap">
+    <area href="North" alt="North" target="_blank" shape=poly coords="0,0, 536,709, 1235,709, 1890,0">  <!--needs hyperlink-->
+    <area href="West" alt="West" target="_blank" shape=poly coords="0,0, 536,709, 0,1417">  <!--needs hyperlink-->
+    <area href="South" alt="South" target="_blank" shape=poly coords="0,1417, 536,709, 1235,709, 1889,0">  <!--needs hyperlink-->
+    <area href="East" alt="East" target="_blank" shape=poly coords="1889,0, 1235,709, 1889,0">  <!--needs hyperlink-->
+   </map>
 
-<area href="North" alt="North" target="_blank" shape=poly coords="0,0, 536,709, 1235,709, 1890,0">  <!--needs hyperlink-->
-
-<area href="West" alt="West" target="_blank" shape=poly coords="0,0, 536,709, 0,1417">  <!--needs hyperlink-->
-
-<area href="South" alt="South" target="_blank" shape=poly coords="0,1417, 536,709, 1235,709, 1889,0">  <!--needs hyperlink-->
-
-<area href="East" alt="East" target="_blank" shape=poly coords="1889,0, 1235,709, 1889,0">  <!--needs hyperlink-->
-
-</html>
 </div>
 
 
