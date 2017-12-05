@@ -2,6 +2,9 @@ img {
 	align-self: center;
 }
 
+img.shrinkme{
+	max-width: 100%;
+}
 *{font-family: helvetica;
 background-color: linen
 }
