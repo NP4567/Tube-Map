@@ -3,7 +3,7 @@ img {
 }
 
 img.shrinkme{
-	max-width: 100%;
+	max-width: 100%; height: auto;
 }
 *{font-family: helvetica;
 background-color: linen
